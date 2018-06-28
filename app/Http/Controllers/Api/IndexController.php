@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Api;
 
-use Illuminate\Http\Request;
+use App\Http\Resources\UsersResource;
 use App\Http\Controllers\Controller;
 
 class IndexController extends Controller
@@ -10,6 +10,6 @@ class IndexController extends Controller
     //
     public function index()
     {
-        return [1,2,3,4];
+       // return (\App\User::find(1));
     }
 }

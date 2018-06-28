@@ -757,17 +757,17 @@
     },
     {
         "name": "laravel/framework",
-        "version": "v5.6.25",
-        "version_normalized": "5.6.25.0",
+        "version": "v5.6.26",
+        "version_normalized": "5.6.26.0",
         "source": {
             "type": "git",
             "url": "https://github.com/laravel/framework.git",
-            "reference": "a15efe4fbcd6b38ea76edc5c8939ffde4f4c7b7f"
+            "reference": "7047df295e77cecb6a2f84736a732af66cc6789c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://files.phpcomposer.com/files/laravel/framework/a15efe4fbcd6b38ea76edc5c8939ffde4f4c7b7f.zip",
-            "reference": "a15efe4fbcd6b38ea76edc5c8939ffde4f4c7b7f",
+            "url": "https://files.phpcomposer.com/files/laravel/framework/7047df295e77cecb6a2f84736a732af66cc6789c.zip",
+            "reference": "7047df295e77cecb6a2f84736a732af66cc6789c",
             "shasum": ""
         },
         "require": {
@@ -862,7 +862,7 @@
             "symfony/dom-crawler": "Required to use most of the crawler integration testing tools (~4.0).",
             "symfony/psr-http-message-bridge": "Required to psr7 bridging features (~1.0)."
         },
-        "time": "2018-06-12T14:39:24+00:00",
+        "time": "2018-06-20T14:21:11+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1418,17 +1418,17 @@
     },
     {
         "name": "nunomaduro/collision",
-        "version": "v2.0.2",
-        "version_normalized": "2.0.2.0",
+        "version": "v2.0.3",
+        "version_normalized": "2.0.3.0",
         "source": {
             "type": "git",
             "url": "https://github.com/nunomaduro/collision.git",
-            "reference": "245958b02c6a9edf24627380f368333ac5413a51"
+            "reference": "b1f606399ae77e9479b5597cd1aa3d8ea0078176"
         },
         "dist": {
             "type": "zip",
-            "url": "https://files.phpcomposer.com/files/nunomaduro/collision/245958b02c6a9edf24627380f368333ac5413a51.zip",
-            "reference": "245958b02c6a9edf24627380f368333ac5413a51",
+            "url": "https://files.phpcomposer.com/files/nunomaduro/collision/b1f606399ae77e9479b5597cd1aa3d8ea0078176.zip",
+            "reference": "b1f606399ae77e9479b5597cd1aa3d8ea0078176",
             "shasum": ""
         },
         "require": {
@@ -1439,9 +1439,10 @@
         },
         "require-dev": {
             "laravel/framework": "5.6.*",
-            "phpunit/phpunit": "~7.0"
+            "phpstan/phpstan": "^0.9.2",
+            "phpunit/phpunit": "~7.2"
         },
-        "time": "2018-03-21T20:11:24+00:00",
+        "time": "2018-06-16T22:05:52+00:00",
         "type": "library",
         "extra": {
             "laravel": {
@@ -2121,17 +2122,17 @@
     },
     {
         "name": "phpunit/phpunit",
-        "version": "7.2.4",
-        "version_normalized": "7.2.4.0",
+        "version": "7.2.6",
+        "version_normalized": "7.2.6.0",
         "source": {
             "type": "git",
             "url": "https://github.com/sebastianbergmann/phpunit.git",
-            "reference": "00bc0b93f0ff4f557e9ea766557fde96da9a03dd"
+            "reference": "400a3836ee549ae6f665323ac3f21e27eac7155f"
         },
         "dist": {
             "type": "zip",
-            "url": "https://files.phpcomposer.com/files/sebastianbergmann/phpunit/00bc0b93f0ff4f557e9ea766557fde96da9a03dd.zip",
-            "reference": "00bc0b93f0ff4f557e9ea766557fde96da9a03dd",
+            "url": "https://files.phpcomposer.com/files/sebastianbergmann/phpunit/400a3836ee549ae6f665323ac3f21e27eac7155f.zip",
+            "reference": "400a3836ee549ae6f665323ac3f21e27eac7155f",
             "shasum": ""
         },
         "require": {
@@ -2147,7 +2148,7 @@
             "php": "^7.1",
             "phpspec/prophecy": "^1.7",
             "phpunit/php-code-coverage": "^6.0.7",
-            "phpunit/php-file-iterator": "^2.0",
+            "phpunit/php-file-iterator": "^2.0.1",
             "phpunit/php-text-template": "^1.2.1",
             "phpunit/php-timer": "^2.0",
             "sebastian/comparator": "^3.0",
@@ -2170,7 +2171,7 @@
             "ext-xdebug": "*",
             "phpunit/php-invoker": "^2.0"
         },
-        "time": "2018-06-05T03:40:05+00:00",
+        "time": "2018-06-21T13:13:39+00:00",
         "bin": [
             "phpunit"
         ],

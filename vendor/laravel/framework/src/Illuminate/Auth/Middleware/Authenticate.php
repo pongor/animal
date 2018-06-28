@@ -56,7 +56,6 @@ class Authenticate
         if (empty($guards)) {
             return $this->auth->authenticate();
         }
-
         foreach ($guards as $guard) {
             if ($this->auth->guard($guard)->check()) {
                 return $this->auth->shouldUse($guard);

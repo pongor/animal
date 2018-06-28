@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
-
+use App\Http\Resources;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -16,7 +16,7 @@ use Illuminate\Http\Request;
 //Route::middleware('auth:api')->get('/user', function (Request $request) {
 //    return $request->user();
 //});
-Route::middleware('auth:api')->get('/user', function () {
-    return [1,2,3,4,5]; 
+Route::middleware(['api','Check'])->group(function(){
+    Route::get("/user","Api\IndexController@index");
 });
-Route::get("test","Api\IndexController@index");
+Route::get("/test","Api\IndexController@index");
